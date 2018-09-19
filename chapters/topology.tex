@@ -1,0 +1,141 @@
+
+\chapter{Topology}
+\section{Basics}
+\subsection{Quickies}
+\begin{itemize}
+\item
+Two important things topology allows us to talk about are?
+\item
+Definition of topology?
+\item
+Definition of topological space?
+\item
+Chaotic and discrete topology.
+\item
+Coarser and finer topology.
+\item
+What is an open set with respect to a topology?
+\item
+Standard topology. Does it have to be defined on $R^{n}$? Open sets in standard
+topology.
+\item
+Induced topology \ Subset topology.
+\item
+Quotient topology.
+\item
+Define the $S^{1}$ topology as an induced topology from $R^{2}$ and a quotient topology of $R$.
+\item
+Product topology.
+\item
+What is a sequence (A sequence in $M$)? Complete : A sequence q in M is said to converge against a limit point $a \in M$ if:
+\item
+In a discrete topology all singleton sets are open $\implies$ all converging sequences are?
+\item
+Define continuity.
+\item
+Show that a map $\phi : M \rightarrow N $ is always continuous if either $O_{M}$ is discrete or $O_{N}$ is chaotic.
+\item
+Homeomorphism or structure preserving maps. Homeomorphic or topologically isomorphic. \\
+
+$(M,O_{M}) \cong_{top} (N,O_{N}) \implies M \cong_{set} N$
+
+
+\end{itemize}
+
+\section{In variants of a topological space}
+\subsection{Quickies}
+
+\begin{itemize}
+\item
+Define $T1$ and $T2$. Zariski topology is?
+\item
+What is a cover and an open cover. Does open cover depend on the topology, what about the cover?
+\item
+What is a compact topological space?
+\item
+If $(M,O_{M})$ is a topological space and $N \subset M$ the it is called compact if $(N,O\mid_{N})$ is compact.
+\item
+$Heine-Borel$ \index{Heine-Borel} theorem.
+\item
+What is a metric space? Define an open ball. Using it induce a natural topological structure on the parent set. How is this topology related to the standard topology?
+\item
+What is the difference between totally bounded and bounded? How are these notions different in an euclidian space? What is a complete space?
+\item
+What is the general statement of $Heine-Borel$ in the above setting.
+\item
+If the constituent topological spaces are compact then the product topological space is?
+\item
+What is a refinement of a cover? When is it open and locally finite?
+\item
+A topological space is called \index{paracompact}$paracompact$ if every open cover has an open refinement that is locally finite.
+\item
+What is a mertisable topological space? How is it related to a paracompact space? $Stone theorem$
+\item
+Product topological space of a compact and a paracompact space is paracompact.
+\item
+What is partition of unity of a set? 
+\item
+A partition of unity set $F$ called subordinate to a cover $C$ if: 
+\[\forall f \in F:\exists U \in C: f(x) \neq 0 \Rightarrow x \in U.\]
+
+\item
+Let $(M,O_{M})$ be a Hausdorff topological space. Then $(M,O_{M})$ is paracompact if, and only if, every open cover admits a partition of unity subordinate to that cover.
+
+\item 
+What is a connected topological space?
+
+\item 
+If the only subsets that are both open and closed are $ \phi $ and $ M $ then the topological space is? Is the converse true?
+
+
+\item 
+
+Path connected: 
+$ (M,O_{m})$ is called path connected if $ \forall p,q \in M $there exists a continuous curve $ \gamma : [0,1] \rightarrow  M $ such that  $ \gamma(0) = p$and $ \gamma(1) = q $.
+
+\item 
+Consider the function $ \gamma(\lambda) := p+ \lambda(q-p) $. Why is it not a proof of the fact that every topological space is path connected?
+
+\item 
+Does $ Path connected \implies Connected $? What about the reverse? Give an example.
+
+\item 
+\textbf{Homotopic curves}
+Let $(M,O_{M})$ be a topological space. Two curves $\gamma,\delta :[0,1]\to M$ such that:
+
+$\gamma(0)=\delta(0) \quad and \quad \gamma(1)=\delta(1)$
+
+are said to be \emph{homotopic}\index{homotopic curves} if there exists a continuous map $h : [0,1]\times[0,1]\to M$ such that for all $\l \in [0,1]$:
+
+$h(0,\lambda) = \gamma(\lambda) \quad and \quad h(1,\lambda)=\delta(\lambda).$
+
+\item 
+Argue that being homotopic is an equivalence relation.
+
+\item 
+\textbf{Space of loops} Defined for all $ p \in M $\\
+
+$\mathscr{L}_{p} := {\gamma:[0,1]\to M \mid \gamma \text{ is continuous and } \gamma(0) = \gamma(1) }$
+
+\item 
+\textbf{Concatenation operator, $ * : \mathscr{L}_{p} \times \mathscr{L}_{p} \to \mathscr{L}_{p}  $} :\\
+\[
+ (\gamma * \delta)(\lambda) :=
+\begin{cases}
+\gamma(2\lambda) & \text{if } 0\leq \lambda \leq \dfrac{1}{2}\\
+\delta(2\lambda -1) & \text{if }\dfrac{1}{2} \leq \lambda \leq 1
+\end{cases}
+\]
+
+
+
+
+
+
+
+
+
+\end{itemize}
+
+
+
